@@ -2,7 +2,7 @@ timeout: 3600s
 steps:
 - id: build
   name: 'gcr.io/cloud-builders/docker'
-  args: [ 'build', '-t', 'gcr.io/security-inspec-demo-sandbox', '-f', '.', '.' ]
+  args: [ 'build', '-t', 'gcr.io/security-inspec-demo-sandbox', '-f', 'dockerfile', '.' ]
 
 - id: retire
   name: 'gcr.io/security-inspec-demo-sandbox/hackathon2021:26e55b9de2eafd803693dff08e718bdba8db9d89'
