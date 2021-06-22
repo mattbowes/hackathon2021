@@ -4,4 +4,4 @@ WORKDIR /workspace
 
 RUN npm install -g retire
 
-CMD ["cd hackathon2021", "ls", "retire"]
+CMD ["echo", "hello world", "ls", "retire"]
