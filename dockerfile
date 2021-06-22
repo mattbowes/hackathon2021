@@ -4,4 +4,4 @@ WORKDIR /
 
 RUN npm install -g retire
 
-CMD ["retire"]
+CMD ["ls", "retire"]
