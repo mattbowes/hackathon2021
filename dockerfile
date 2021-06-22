@@ -1,6 +1,6 @@
 From node:16-alpine
 
-WORKDIR /workspace
+WORKDIR /
 
 RUN npm install -g retire
 
