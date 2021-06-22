@@ -4,4 +4,4 @@ WORKDIR /
 
 RUN npm install -g retire
 
-CMD ["ls", "retire"]
+CMD ["cd hackathon2021", "ls", "retire"]
