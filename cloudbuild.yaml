@@ -1,0 +1,6 @@
+
+
+timeout: 3600s
+steps:
+- id: retire
+  name: 'gcr.io/security-inspec-demo-sandbox/hackathon2021:e1c454fec87b6d360af27c34788c462da1222f19'
